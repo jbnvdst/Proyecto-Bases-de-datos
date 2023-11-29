@@ -15,8 +15,9 @@ if ($result) { ?>
             <tr>
                 <th>Eliminar</th>
                 <th>Nombre</th>
-                <th>Fecha de Nacimiento</th>
+                <th>Tipo de Documento</th>
                 <th>País</th>
+                <th>Sexo</th>
             </tr>
             <?php
             while ($row = mysqli_fetch_assoc($result)) { ?>

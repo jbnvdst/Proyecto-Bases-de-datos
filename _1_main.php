@@ -140,7 +140,7 @@ $_SESSION['$username'] = 'admin'; // Nombre de usuario
 
     <section>
         <h2>Visualizar Directores</h2>
-        <form action="visualizar_directores.php" method="GET">
+        <form action="visualizar_director.php" method="GET">
             <button type="submit">Visualizar</button>
         </form>
     </section>
