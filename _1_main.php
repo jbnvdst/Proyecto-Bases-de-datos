@@ -60,7 +60,7 @@ $_SESSION['$username'] = 'admin'; // Nombre de usuario
             <label for="tipo_documento">Tipo de Documento:</label>
             <input type="text" id="tipo_documento" name="tipo_documento" required>
 
-            <laber for="origen">Origen:</label>
+            <laber style="font-weight: bold; width: 100%;" for="origen">Origen:</label>
             <input type="text" id="origen" name="origen" required>
 
             <label for="sexo">Sexo:</label>
@@ -79,7 +79,7 @@ $_SESSION['$username'] = 'admin'; // Nombre de usuario
             <label for="tipo_documento">Tipo de Documento:</label>
             <input type="text" id="tipo_documento" name="tipo_documento" required>
 
-            <laber for="origen">Origen:</label>
+            <laber style="font-weight: bold; width: 100%;" for="origen">Origen:</label>
             <input type="text" id="origen" name="origen" required>
 
             <label for="sexo">Sexo:</label>
@@ -118,7 +118,10 @@ $_SESSION['$username'] = 'admin'; // Nombre de usuario
     <section>
         <h2>Dar de Alta Productora</h2>
         <form action="alta_productora.php" method="POST">
-            <label for="denominacion">Nombre:</label>
+            <label for="rut">RUT:</label>
+            <input type="text" id="rut" name="rut" required>
+
+            <label for="denominacion">Denominación:</label>
             <input type="text" id="denominacion" name="denominacion" required>
 
             <label for="telefono">Teléfono:</label>
@@ -132,6 +135,27 @@ $_SESSION['$username'] = 'admin'; // Nombre de usuario
         <h2>Visualizar Películas</h2>
         <form action="visualizar_peliculas.php" method="GET">
             <button type="submit">Visualizar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Visualizar Directores</h2>
+        <form action="visualizar_directores.php" method="GET">
+            <button type="submit">Visualizar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Visualizar Actores</h2>
+        <form action="visualizar_actores.php" method="GET">
+            <button type="submit">Visualizar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Crear Respaldos</h2>
+        <form action="crear_respaldo.php" method="GET">
+            <button type="submit">Crear</button>
         </form>
     </section>
 
